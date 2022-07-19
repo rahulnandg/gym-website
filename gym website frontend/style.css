@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("bg.png3.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.navbar{
+    display: flex;
+}
+
+.nav-list{
+ list-style: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+ 
+}
+
+.nav-list li{
+ /* padding: 17px; */
+ align-items: center;
+ margin: 9px 17px;
+ /* font-size: 12px; */
+ /* text-align: center; */
+ color: white;
+ text-decoration: none;
+}
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    margin: 9px 17px;
+    /* padding: 17px; */
+}
+.nav-list li:hover{
+    padding: 24px;
+    
+    color: grey;
+    cursor: pointer;
+   }
+.logo img{
+    width: 20%;
+    
+}
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+    /* background: blueviolet; */
+    
+}
+
+.btn{
+    margin: 42px 3px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    /* border-radius: 9px; */
+    padding: 2px 15px;
+    border-radius: 3px;
+    
+}
+
+.btn:hover{
+    color: grey;
+}
+
+.form{
+    border: 3px solid white;
+    height: 153px;
+    width: 16%;
+    margin: 37px 882px;
+    
+    border-radius: 9px;
+    padding: 86px 99px;
+}
+
+.info{
+    margin: 5px 0px;
+    /* padding: 0px 51px; */
+
+}
+#logininfo{
+    padding: 0px 51px;
+    margin: 2px 0px;
+border-radius: 4px;
+}
+#logininfo2{
+    padding: 0px 51px;
+    margin: 2px 0px;
+border-radius: 4px;
+}
+
+#logininfo3{
+    padding: 0px 51px;
+    margin: 2px 0px;
+border-radius: 4px;
+}
+
+#logininfo4{
+    padding: 0px 51px;
+    margin: 2px 0px;
+ border-radius: 4px;  
+}
+
+.submitbutton{
+    padding: 0px 101px;
+    margin: 2px 0px;
+    color: white;
+    background: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ 
